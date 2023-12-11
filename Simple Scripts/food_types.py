@@ -3,7 +3,8 @@ foodtypes={
     "potato" : "vegetable",
     "bread" : "grain",
     "yogurt" : "dairy",
-    "steak" : "meat"
+    "steak" : "meat",
+    "cake" : "dessert",
            }
 food = "apple"
 print(food, "is a", foodtypes[food])
