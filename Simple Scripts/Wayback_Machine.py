@@ -1,3 +1,5 @@
+#open website using Wayback Machine
+#input should request URL and Timestamp
 import webbrowser
 import json
 from urllib.request import urlopen
