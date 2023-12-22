@@ -14,3 +14,14 @@ a=10
 print("a should be 10: a = ",a)
 a -= 3
 print("a should now be 7: a = ", a)
+binarynum = 0b10 #base 2
+print("binary num = ", binarynum)
+octalnum = 0o10
+print("octal based num = ", octalnum)
+hexnum = 0x10
+print("hex based num = ", hexnum)
+
+#type converstions
+print("Convert True to 1 using type conversion: ", int(True))
+print("Convert float to int using type conversion: ", int(7.9))
+print("Convert string to int using type conversion: ", int("42"))
