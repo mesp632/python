@@ -26,3 +26,16 @@ print("Original Word:", changeword)
 print("New Word:",changeword.replace('R','P'))
 print("Other way to change word:", 'P'+changeword[1:])
 print("Prove original word immutable:", changeword)
+print("extract substring:", changeword[2:5:2])#start at offset 2 go to offset 8 skip every 2 letters
+print("exctract the last 3 letters:",changeword[-3:])
+print("exctract from string",changeword[2:-1])
+print("get length of string",len(changeword))
+commalist = 'string 1, string 2, string 3'
+newcommalist = commalist.split(",")
+print("split list using comma delimiter",newcommalist)
+print("split lit using space delimieter",commalist.split())
+commalist = "string 1\n string 2\n string 3"
+print("split lit using newline delimieter",commalist.splitlines())
+
+print("joinlist:", ",".join(newcommalist))
+print("use startswith() function:", commalist.startswith('string'))
