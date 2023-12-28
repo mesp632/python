@@ -39,3 +39,9 @@ print("split lit using newline delimieter",commalist.splitlines())
 
 print("joinlist:", ",".join(newcommalist))
 print("use startswith() function:", commalist.startswith('string'))
+print("use endsswith() function:", commalist.endswith('3'))
+print("use find() function:", commalist.find('string'))
+print("use rfind() function:", commalist.rfind('string')) #finds next occurance of 'string'
+print("use count() function:", commalist.count('string'))
+print("use isallnum() function:", commalist.isalnum())
+
