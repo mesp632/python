@@ -30,18 +30,26 @@ print("extract substring:", changeword[2:5:2])#start at offset 2 go to offset 8 
 print("exctract the last 3 letters:",changeword[-3:])
 print("exctract from string",changeword[2:-1])
 print("get length of string",len(changeword))
-commalist = 'string 1, string 2, string 3'
+commalist = 'String 1, String 2, String 3'
 newcommalist = commalist.split(",")
 print("split list using comma delimiter",newcommalist)
 print("split lit using space delimieter",commalist.split())
-commalist = "string 1\n string 2\n string 3"
-print("split lit using newline delimieter",commalist.splitlines())
+newlinecommalist = "string 1\n string 2\n string 3"
+print("split lit using newline delimieter",newlinecommalist.splitlines())
 
 print("joinlist:", ",".join(newcommalist))
-print("use startswith() function:", commalist.startswith('string'))
+print("use startswith() function:", commalist.startswith('String'))
 print("use endsswith() function:", commalist.endswith('3'))
-print("use find() function:", commalist.find('string'))
-print("use rfind() function:", commalist.rfind('string')) #finds next occurance of 'string'
-print("use count() function:", commalist.count('string'))
+print("use find() function:", commalist.find('String'))
+print("use rfind() function:", commalist.rfind('String')) #finds next occurance of 'string'
+print("use count() function:", commalist.count('String'))
 print("use isallnum() function:", commalist.isalnum())
+ #strip() removes list of words from the beginning and end of string only
+print("use strip() to remove ends until only 2 remains:", commalist.strip('String 1 , 3'))
+print("use replace() to remove commas:",commalist.replace(',','')) #can replace in the middle of the string
+print("capitalize first word:",commalist.capitalize())
+print("capitalize all words:",commalist.title())
+print("Capitalize all letters:", commalist.upper())
+print("Lowercase all letters:", commalist.lower())
+print("Swap cases:", commalist.swapcase())
 
