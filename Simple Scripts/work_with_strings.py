@@ -52,4 +52,19 @@ print("capitalize all words:",commalist.title())
 print("Capitalize all letters:", commalist.upper())
 print("Lowercase all letters:", commalist.lower())
 print("Swap cases:", commalist.swapcase())
-
+print("Center string with 20 spaces: \n",commalist.center(20))
+print("Left jusify string: \n",commalist.ljust(20))
+print("Right jusify string: \n",commalist.rjust(20))
+print("use replace() to remove 1 comma:\n",commalist.replace(',','',1)) #can replace in the middle of the string
+print("use replace() to replace i with o:\n",commalist.replace('i','o',1)) #can replace in the middle of the string
+seconds = 60
+minutes = 60
+seconds_per_hour = seconds * minutes
+print("caluclate seconds in an hour =", seconds_per_hour)
+hours = 24
+seconds_per_day = seconds_per_hour * hours
+print("seconds in a day =", seconds_per_day)
+floatdiv = seconds_per_day/seconds_per_hour
+print("test float division = ", floatdiv)
+intdiv = seconds_per_day//seconds_per_hour
+print("test integer division =",intdiv)
