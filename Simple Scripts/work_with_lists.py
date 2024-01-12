@@ -35,4 +35,31 @@ print("removed:", first_element, elements)
 last_element = elements.pop(-1)
 print("removed:",last_element, elements)
 print("Oxygen" in elements, elements.count("Oxygen"), elements.count("Plutonium"))
-print(",".join(elements))
+joined = ",".join(elements)
+print(joined)
+print(joined.split(","))
+sorted_elements = sorted(elements)
+print(sorted_elements)
+nums_list = [1,4,2]
+print(nums_list)
+nums_list.sort()
+print(nums_list)
+nums_list.sort(reverse=True)
+print(nums_list)
+test_elements=elements
+new_elements_list = elements.copy()
+new_elements_list.insert(-1,"Lithium")
+print(elements)
+print(test_elements)
+print(new_elements_list)
+empty_tuple = ()
+element_tuple = tuple(elements) #tuples cannot be modified after creation
+print(element_tuple)
+elements.insert(10, "Lithium")
+print(elements, "\n",element_tuple)
+a, b, c, d, e, f = element_tuple #tuple unpacking
+print(b)
+password = "test_password"
+password_2 = "test_password_2"
+password, password_2 = password_2, password #use tuple to exchange values
+print(password, password_2)
