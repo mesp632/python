@@ -63,3 +63,23 @@ password = "test_password"
 password_2 = "test_password_2"
 password, password_2 = password_2, password #use tuple to exchange values
 print(password, password_2)
+
+empty_dict = {}
+print(empty_dict)
+elements_dict = {
+    1:"Hydrogen",
+    2:"Helium",
+    3:"Lithium",
+    4:"Beryllium",
+    5:"Boron",
+    6:"Carbon"
+}
+print(elements_dict)
+
+element_list_2 = [[1,"Hydrogen"],
+    [2,"Helium"],
+    [3,"Lithium"],
+    [4,"Beryllium"],
+    [5,"Boron"],
+    [6,"Carbon"]]
+print(element_list_2, dict(element_list_2))
