@@ -82,4 +82,21 @@ element_list_2 = [[1,"Hydrogen"],
     [4,"Beryllium"],
     [5,"Boron"],
     [6,"Carbon"]]
+
+#Convert list to dictionary
 print(element_list_2, dict(element_list_2))
+elements_dict[7] = "Nitroge" #add element
+print(elements_dict)
+elements_dict[7] = "Nitrogen" #change 7th element
+print(elements_dict)
+add_elements = {
+    8:"Oxygen",
+    9:"Fluorine"
+                }
+elements_dict.update(add_elements)
+print(elements_dict)
+del elements_dict[9]
+print(elements_dict)
+add_elements.clear()
+print(add_elements)
+print(7 in elements_dict)
